@@ -1,55 +1,77 @@
 /*Home*/
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
     color: white;
     background: rgb(0, 0, 0);
     width: 100%;
-    max-width: 1000px;
+}
+
+/*start horizonal navigation bar*/
+
+#menu-outer {
+	height: 84px;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 900px;
+	list-style: none;
+	padding: 10px;
+    }
+    
+ul#horizontal-list li {
+	display: inline;
+	}
+
+/*end horizonal navigation bar*/
+
+div {
+    text-align: center;
+    color: white;
+    width: 100%;
 }
 
 ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 1600px;
     overflow: hidden;
     background-color: rgb(82, 83, 88);
     font-size: 30px;
 }
 
-h1 {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
 li {
-    float: left;
-    border-left: 1px solid #bbb;
+    border: 1px solid #bbb;
+    display: inline;
 }
   
-  li a {
-    display: block;
+li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+}
+
 .center-div {
     margin: 0 auto;
     width: 100px;
-    text-align: center;
-}
-
-header {
-    color: white;
-    background: rgb(14, 179, 230)
-    padding: 10px 0px 10px 0px;
-    width: 100%; 
     text-align: center;
 }
 
@@ -64,27 +86,29 @@ header {
 
 .maintitle {
     text-transform: lowercase;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .subtitle {
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
 }
 
-div {
-    text-align: center;
+header {
     color: white;
-    font-size: 40px;
+    background: rgb(14, 179, 230)
+    padding: 10px 0px 10px 0px;
+    width: 100%; 
+    text-align: center;
 }
 
 #mountain-pic {
     text-align:center;
     display:block;
-    width: 1600px;
     height: 900px;
-    padding: 0%;
-    margin: 0 auto
+    min-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .row {
@@ -99,6 +123,10 @@ clear: both;
     margin: .5%;
     float: left;
     width: 25%;
+}
+
+a {
+    color: white;
 }
 
 footer {
@@ -119,6 +147,7 @@ footer {
 
 /*End of Cultural 1*/
 
+
 /*Cultural 2*/
 #coreblog2 p {
     text-align: initial;
@@ -130,6 +159,7 @@ footer {
 
 /*End of Cultural 2*/
 
+
 /*Technical 2*/
 #techblog p {
     text-align: initial;
@@ -140,4 +170,35 @@ footer {
     text-align: center; 
     !important;
 }
+
+.inline-block.jpg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.block.jpg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.inline.jpg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 /*End of Technical 2*/
+
+/*Cultural 3*/
+#coreblog3 {
+    text-align: initial;
+}
+
+#coreblog3 h2 {
+    text-decoration: underline; 
+}
+/*End of Cultural 3*/
