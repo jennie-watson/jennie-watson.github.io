@@ -46,6 +46,7 @@ ul {
 li {
     border: 1px solid #bbb;
     display: inline;
+    color: white;
 }
   
 li a {
@@ -201,3 +202,15 @@ footer {
     text-decoration: underline; 
 }
 /*End of Cultural 3*/
+
+/*Technical 3*/
+.house {
+    color: white;
+    background: black;
+}
+
+.soccer {
+    color: white;
+    background: black;
+}
+/*End of Technical 3*/
